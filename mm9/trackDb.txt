@@ -1,0 +1,139 @@
+
+
+track minus
+shortLabel minus
+longLabel minus
+type bigWig
+autoScale on
+visibility full
+compositeTrack on
+
+    track LPS_stimulation_21hr.minus
+    parent minus on
+    bigDataUrl CAGE/LPS_stimulation_21hr.minus.bigWig
+    shortLabel LPS_stimulation_21hr.minus
+    longLabel LPS_stimulation_21hr.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track LPS_stimulation_2hr.minus
+    parent minus on
+    bigDataUrl CAGE/LPS_stimulation_2hr.minus.bigWig
+    shortLabel LPS_stimulation_2hr.minus
+    longLabel LPS_stimulation_2hr.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track LPS_stimulation_4hr.minus
+    parent minus on
+    bigDataUrl CAGE/LPS_stimulation_4hr.minus.bigWig
+    shortLabel LPS_stimulation_4hr.minus
+    longLabel LPS_stimulation_4hr.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track LPS_stimulation_7hr.minus
+    parent minus on
+    bigDataUrl CAGE/LPS_stimulation_7hr.minus.bigWig
+    shortLabel LPS_stimulation_7hr.minus
+    longLabel LPS_stimulation_7hr.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Unstimulated_sample.minus
+    parent minus on
+    bigDataUrl CAGE/Unstimulated_sample.minus.bigWig
+    shortLabel Unstimulated_sample.minus
+    longLabel Unstimulated_sample.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+
+track plus
+shortLabel plus
+longLabel plus
+type bigWig
+autoScale on
+visibility full
+compositeTrack on
+
+    track LPS_stimulation_21hr.plus
+    parent plus on
+    bigDataUrl CAGE/LPS_stimulation_21hr.plus.bigWig
+    shortLabel LPS_stimulation_21hr.plus
+    longLabel LPS_stimulation_21hr.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track LPS_stimulation_2hr.plus
+    parent plus on
+    bigDataUrl CAGE/LPS_stimulation_2hr.plus.bigWig
+    shortLabel LPS_stimulation_2hr.plus
+    longLabel LPS_stimulation_2hr.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track LPS_stimulation_4hr.plus
+    parent plus on
+    bigDataUrl CAGE/LPS_stimulation_4hr.plus.bigWig
+    shortLabel LPS_stimulation_4hr.plus
+    longLabel LPS_stimulation_4hr.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track LPS_stimulation_7hr.plus
+    parent plus on
+    bigDataUrl CAGE/LPS_stimulation_7hr.plus.bigWig
+    shortLabel LPS_stimulation_7hr.plus
+    longLabel LPS_stimulation_7hr.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Unstimulated_sample.plus
+    parent plus on
+    bigDataUrl CAGE/Unstimulated_sample.plus.bigWig
+    shortLabel Unstimulated_sample.plus
+    longLabel Unstimulated_sample.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
